@@ -145,11 +145,11 @@ framework code must not acquire host game types.
 Install XLua first, then add the package from Git:
 
 ```text
-https://github.com/linkmanny/LinkFramework.git?path=/Packages/com.linkmanny.linkframework
+https://github.com/linkmanny/LinkFramework.git?path=/Packages/com.linkmanny.linkframework#v0.1.4
 ```
 
-Use a released `vX.Y.Z` tag that contains this capability reference in
-production rather than following `main`.
+Release `v0.1.4` and later bundle this capability reference with the installed
+package. Use a released `vX.Y.Z` tag in production rather than following `main`.
 
 ## Fetching this document from a client
 
