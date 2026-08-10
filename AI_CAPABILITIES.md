@@ -167,9 +167,8 @@ credentials can use
 https://raw.githubusercontent.com/linkmanny/LinkFramework-AI-Docs/main/AI_CAPABILITIES.md
 ```
 
-The public companion repository contains only this document and is
-automatically updated from the canonical file after it changes on `main`. For
+The public companion repository contains only this document. Maintainers update
+it from the canonical file with `tools/Publish-AICapabilities.ps1`. For
 documentation aligned to an installed package version, read the package-local
-file instead. Consumers should cache the HTTP response and handle
-offline/network failures; framework startup must not depend on this remote
-document.
+file instead. Consumers should cache the HTTP response and handle offline/network
+failures; framework startup must not depend on this remote document.
