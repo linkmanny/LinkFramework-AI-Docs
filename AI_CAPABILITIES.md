@@ -23,7 +23,7 @@ required_host_dependency:
   - XLua
 capabilities_document:
   package_path: Documentation~/AI_CAPABILITIES.md
-  latest_url: https://raw.githubusercontent.com/linkmanny/LinkFramework-AI-Docs/main/AI_CAPABILITIES.md
+  latest_url: https://raw.githubusercontent.com/linkmanny/LinkFramework-AI-Docs/refs/heads/main/AI_CAPABILITIES.md
 ```
 
 ## What LinkFramework is
@@ -164,7 +164,7 @@ credentials can use
 `LinkFrameworkDocumentation.CapabilitiesUrl`, whose value is:
 
 ```text
-https://raw.githubusercontent.com/linkmanny/LinkFramework-AI-Docs/main/AI_CAPABILITIES.md
+https://raw.githubusercontent.com/linkmanny/LinkFramework-AI-Docs/refs/heads/main/AI_CAPABILITIES.md
 ```
 
 The public companion repository contains only this document. Maintainers update
